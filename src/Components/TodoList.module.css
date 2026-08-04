@@ -1,0 +1,113 @@
+@font-face {
+  font-family: Peyda-Bold;
+  src: url("../fonts/Peyda-Bold[@fontbazi].ttf") format("truetype");
+  font-family: Peyda-light;
+  src: url("../fonts/peyda-light[@fontbazi].ttf") format("truetype");
+}
+
+.container {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#e0f2fe, #bfdbfe);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .todoApp {
+  display: flex;
+  align-items: center;
+}
+
+.container .todoApp img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.container .todoApp h2 {
+  font-size: 3rem;
+}
+
+.container .value {
+  margin-top: 10px;
+  position: relative;
+}
+
+.container .value input {
+  width: 280px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  border: none;
+  outline: none;
+}
+
+.container .value input::placeholder {
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-family: 'Peyda-Bold','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .value button {
+  padding: 9px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2f81ed;
+  font-size: 1rem;
+  position: absolute;
+  right: 0px;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.container .alert {
+  color: black;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container .list {
+  padding: 5px;
+  margin-top: 10px;
+  background-color: white;
+  min-width: 300px;
+  max-width: fit-content;
+  position: relative;
+  border-radius: 8px;
+}
+
+.container .list li {
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.container .list li input {
+  margin-right: 5px;
+}
+
+.container .list li button {
+  position: absolute;
+  right: 5px;
+  font-size: 1rem;
+  color: red;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
