@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 import { useState } from "react";
 import styles from "./TodoList.module.css";
-import notePic from "../Pics/NoteBook.png";
+import notePic from "../Pics/Notebook.png";
 
 function TodoList() {
   const [input, setInput] = useState("");
