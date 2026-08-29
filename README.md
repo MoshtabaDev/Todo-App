@@ -1,4 +1,4 @@
-# 📝 Todo List
+# 📝 Todo App
 
 A simple and practical application for **managing and tracking daily tasks**, designed and developed to practice and improve front-end development skills.
 
